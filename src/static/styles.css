@@ -63,6 +63,11 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  transition: box-shadow 0.2s;
+}
+
+.activity-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .activity-card h4 {
@@ -72,6 +77,16 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.spots-available {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.spots-full {
+  color: #c62828;
+  font-weight: bold;
 }
 
 .form-group {
@@ -142,3 +157,4 @@ footer {
   padding: 20px;
   color: #666;
 }
+
